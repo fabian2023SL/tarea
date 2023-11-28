@@ -1,0 +1,27 @@
+class Main {
+   
+
+  public static void main (String[] args) {
+
+    //iniciamos una variable para almacenar la suma
+    int [] numeros = {1,2,3,4,5,6,7,8};
+
+      int suma =0;
+
+      //se usa un bucle for para sumar los numeros del 1 al 8
+
+      for (int i = 0; i < numeros.length; i++) {
+          suma += numeros [i];
+
+          //se da el resultado
+
+          System.out.println("la suma de 1 a 8 es: " + suma);
+      }
+
+
+  }
+
+
+
+  
+}
